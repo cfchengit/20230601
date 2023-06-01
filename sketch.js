@@ -25,9 +25,9 @@ var scoreall  //計算總分
 let img
 
 function preload(){  //程式碼準備執行之前，所執行的程式碼內容，比setup()更早執行
-  snakes_sound = loadSound("Sound/RPT01.wav"); //蛇的聲音
+  snakes_sound = loadSound("Sound/RPT01.WAV"); //蛇的聲音
   bullet_sound = loadSound("Sound/Launching wire.wav");  //飛彈聲音
-  monster_sound = loadSound("Sound/BRDS75.WAV");  //小雞的聲音
+  monster_sound = loadSound("Sound/BRDS75.wav");  //小雞的聲音
   img = loadImage("image/1.jpg"); //背景圖
 } 
 
